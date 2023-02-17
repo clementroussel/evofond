@@ -13,7 +13,7 @@ class MainWindow(QMainWindow):
         self.appctxt = appctxt
 
         self.setWindowTitle("Evofond")
-        self.setWindowIcon(QIcon(self.getResource("images\\evofond.jpg")))
+        #self.setWindowIcon(QIcon(self.getResource("images\\evofond.jpg")))
 
         self.tabs = TabBar(parent=self)
 
